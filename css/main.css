@@ -4,7 +4,6 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
 /*Grid*/
 .container {
   margin: 0 auto;
@@ -213,7 +212,7 @@ h2 {
 
 .text-style, figure {
   color: #393939;
-  padding: 6rem 4.5rem;
+  padding: 3rem 4.5rem;
   display: inline-block;
   align-self: center;
 }
@@ -246,11 +245,15 @@ ul li {
 }
 
 @media (min-width: 768px) {
-
-  .text-rock {
+  section {
+    overflow: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+ .text-style {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
   }
 
   .overlay {
